@@ -118,9 +118,9 @@ echo "6.Sauvegarde des fichiers de configuration de PostgreSQL." | tee -a "$LOG_
 # Création d'un lien symbolique pour l'extension orafce
 echo "Création d'un lien symbolique pour l'extension orafce." | tee -a "$LOG_FILE"
 if ls /usr/lib/postgresql/15/lib/ | grep -i "orafunc.so"; then
-  echo "Le lien symbolique orafce existe déjà."
+  echo "Le lien symbolique orafce existe déjà." | tee -a "$LOG_FILE"
 else
-  echo "Le lien symbolique orafce n'existe pas,ajout en cours..."
+  echo "Le lien symbolique orafce n'existe pas,ajout en cours..." | tee -a "$LOG_FILE"
   ln -s /usr/lib/postgresql/15/lib/orafce.so /usr/lib/postgresql/15/lib/orafunc.so
 fi
 
