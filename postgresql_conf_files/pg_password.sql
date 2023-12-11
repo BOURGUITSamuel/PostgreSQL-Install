@@ -1,2 +1,2 @@
-ALTER USER postgres WITH PASSWORD 'dboppwd';
+ALTER USER postgres WITH PASSWORD '<your_password>';
 \q
