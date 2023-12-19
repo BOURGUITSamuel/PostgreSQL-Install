@@ -8,7 +8,7 @@ Script d'installation et de configuration de PostGreSQL 15
 
 ## Getting Started
 
-Vous pouvez utiliser ce programme afin d'installer un système de gestion de base de données PostgreSQL version 15 
+Vous pouvez utiliser ce programme afin d'installer le système de gestion de base de données PostgreSQL version 15 
 
 ### Prerequisites
 
