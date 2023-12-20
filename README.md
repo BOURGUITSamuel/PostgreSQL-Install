@@ -22,7 +22,7 @@ Le programme a été conçu avec le language Bash
 
 2- Lancer les programmes avec la commande suivante : "bash postgresql_install.bash" && "bash postgresql_bdd_conf.bash"
 
-3- Vous pouvez appliquer vos propres paramètres en modifiant les scripts
+3- Vous pouvez appliquer vos propres paramètres en modifiant les scripts ainsi que les fichiers .sql
 
 ## Running the tests
 
