@@ -24,6 +24,8 @@ Le programme a été conçu avec le language Bash
 
 3- Vous pouvez appliquer vos propres paramètres en modifiant les scripts ainsi que les fichiers .sql
 
+NB : Le script installe les extensions suivantes : "uuid-ossp" "orafce" "pgcrypto" "uuid-ossp" "unaccent"
+
 ## Running the tests
 
 Le programme a été testé sur l'OS Debian 64bits. 
