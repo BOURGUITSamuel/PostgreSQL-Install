@@ -60,6 +60,7 @@ else
 fi
 
 # Vérification de la version installée
+# test
 pg_version=$(psql --version | awk '{print $3}' | awk -F "." '{print $1}')
 if [[ $pg_version -ne 15 ]]; then
   gestion_erreur "La version installée de PostgreSQL n'est pas la version 15 !"
